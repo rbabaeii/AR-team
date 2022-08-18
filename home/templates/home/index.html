@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <!-- {% load static %} -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home/style/style-index.css' %}">
+    <link rel="stylesheet" href="{% static 'home/style/responsive-index.css' %}">
+    <title>AR Team | ProGramming</title>
+</head>
+<body>
+    <ul class="menu-top">
+        <li class="mt-li"><a href="{% url 'anytwo' %}" id="ss" class="mt-a">برنامه نویسان</a></li>
+        <li class="mt-li"><a href="" class="mt-a">تماس با تیم</a></li>
+    </ul>
+    <div class="first">
+        <div class="f-r">
+            <h2 class="f-r-one">خوش آمدید</h2>
+            <p class="f-r-two">از اطلاعات ما  با  خبر شوید<br>و از نمونه کار های ما بهره ببرید</p>
+            <a class="f-m" href="{% url 'anytwo' %}">بیشتر</a>
+        </div>
+        <div class="f-l">
+            <a href="https://t.me/real_ar_team" id="f-lfa" class="f-l-a">تلگرام</a>
+            <a href="{% url 'anytwo' %}" class="f-l-a">اطلاعات طراحان</a>
+            <a title="غیر فعال" href="#ff" class="f-l-a">به ما بپیوندید</a>
+        </div>
+    </div>
+    <!-- call to team -->
+</body>
+    <!-- <script src="{% static 'home/style/index.js' %}"></script> -->
+</html>

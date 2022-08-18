@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="{% static 'home/style/amir.css' %}">
+    <link rel="stylesheet" href="{% static 'home/style/res-amir-reza.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>امیر داوری</title>
+</head>
+<body>
+    <a href="{% url 'anytwo' %}" class="back-home">بازگشت</a>
+    <div id="pop" class="two">
+        <div class="uuu">
+            <div class="imgs-divu">
+                <!-- {% static 'home/img/amir.jpg' %} -->
+                <img src="" alt="فیلد خالی میباشد">
+            </div>
+            <h2 class="h2-two-box">امیر داوری</h2>
+            <p class="p-three-box">به نام خدا <br>برنامه نویس سایت | بخش فرانت اند (سمت کاربر)<br> مهارت های من:<br>html | css| JS | Responsive By Media <br>درباره من:<br>دانش اموزش کلاس 12 تجربی <br>ساکن : مازندران | ساری</p>
+            <a href="{% url 'ma' %}" class="github">مدارک من</a>
+            <a href="https://github.com/amirdavarii" target="_blank" class="github">اطلاعات من در گیت هاب</a>
+            <h4 class="contact-box">تماس با من</h4>
+            <a href="https://instagram.com/i.distrust"  target="_blank" class="call">اینستاگرام</a>
+            <a href="callto:+989034533725" class="call">شماره تماس</a>
+            <a href="https://t.me/developerswe" class="call">تلگرام</a>
+        </div>
+    </div>
+</body>
+</html>

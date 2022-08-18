@@ -1,0 +1,45 @@
+@media screen And (max-width:700px) {
+    .menu-top{
+        width:100%;
+        border-radius: 0;
+        margin:0;
+        top:0;
+    }
+    .first{
+        display: block;
+        height:auto;
+        padding: 20px;
+        text-align: center;
+        margin:40px auto;
+    }
+    .f-r{
+        width:100%;
+        height:320px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+    .f-r-one{
+        width:100%;
+        font-size: 22px;
+    }
+    .f-r-two{
+        width:100%;
+        font-size: 17px;
+    }
+    .f-m{
+        width:70%;
+    }
+    .f-l{
+        display: block;
+        width:100%;
+        height:240px;
+        text-align: center;
+    }
+    .f-l-a{
+        display:block;
+        margin:-80px auto -100px auto;
+        width:90%;
+    }
+}

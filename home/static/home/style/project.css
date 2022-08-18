@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'rt';
+    src: url(../../home/fonts/Vazir-Light.ttf);
+}
+@font-face {
+    font-family: 'er';
+    src: url(../fonts/Vazir-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(70deg,rgb(73, 150, 82) 40%,rgb(19, 191, 151) 100%);
+}
+.back{
+    text-decoration: none;
+    width: 10%;
+    display: block;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin:20px 20px 0 auto;
+    font-family:'rt';
+    border-radius:10px;
+}
+.back:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+    transition:all 0.5s ease;
+}
+.cont{
+    height: 470px;
+    width: 100%;
+    background-color: black;
+    margin:70px auto auto;
+    overflow-y: 0;
+    overflow-x:scroll;
+    white-space:nowrap;
+    padding:10px;
+}
+.items{
+    display:inline-block;
+    width: 700px;
+    height: 90%;
+    margin:10px;
+    border-radius:10px;
+    overflow:hidden;
+    position: relative;
+    background-color: white;
+}
+.item{
+    position: absolute;
+    right: 0;
+    width:40%;
+    height: 100%;
+}
+.item1{
+    position:absolute;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: 0;
+}
+.imgs{
+    width: 90%;
+    height: 90%;
+    margin:20px auto 10px auto;
+    display: block;
+    border-radius:10px;
+}
+.title{
+    width:50%;
+    padding: 5px 0;
+    text-align: center;
+    margin: 30px auto auto;
+    background-color: black;
+    color: white;
+    font-family: 'er';
+    border-radius: 10px;
+}
+.item>img{
+    width:74٪;
+    margin:35px 10px 0 0;
+  }
+  
+.explane{
+    width: 90%;
+    height:40%;
+    text-align:justify;
+    padding:10px;
+    background-color:rgb(216, 216, 216);
+    font-family: 'rt';
+    margin:20px auto auto;
+    border-radius: 5px;
+    font-size:14px;
+}
+button{
+    font-family: 'er';
+    padding:10px 20px;
+    border: 0;
+    margin:10px auto auto;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(106, 131, 154);
+}
+button:hover{
+    background-color: rgb(0, 71, 107);
+    color: white;
+    transition:all 0.5s ease;
+}
+@media screen And (max-width:700px){
+    .back{
+        width: 40%;
+    }
+    .cont{
+        height:1000px;
+        padding: 20px;
+        display: block;
+        background-color:rgba(63, 65, 65,0.4);
+    }
+    .items{
+        width:95%;
+        height:30%;
+        margin:20px auto;
+        display: block;
+    }
+    .item1{
+        overflow-y:scroll;
+        white-space:nowrap;
+    }
+    .title{
+        width:90%;
+    }
+    .explane{
+        font-size:17px;
+        height:300px;
+    }
+}

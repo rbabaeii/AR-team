@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html>
+<html dir="rtl" lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home/style/project.css' %}">
+    <title>نمونه کار</title>
+</head>
+<body>
+    <a href="{% url 'home_page' %}" class="back">خانه</a>
+    <div class="cont">
+        {% for project in projects %}
+
+        <div class="items">
+            <div class="item">
+                <img src="{{project.img.url}}" alt="" class="imgs">
+            </div>
+            <div class="item1">
+                <h2 class="title">{{project.title}}</h2>
+                <p id="{{project.class_id}}" class="explane">{{project.description}}</p>
+                <button onclick="document.getElementById('{{project.class_id}}').style.cssText='height:65%; transition:all 1s ease; background-color:black;color: White;'">بیشتر</button>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</body>
+</html> -->

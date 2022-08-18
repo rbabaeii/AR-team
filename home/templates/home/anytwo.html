@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{% static 'home/style/any.css' %}">
+    <link rel="stylesheet" href="{% static 'home/style/res-any.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامه نویسان</title>
+</head>
+<body>
+    <a class="back" href="{% url 'home_page' %}">بازگشت</a>
+    <h2>برنامه نویسان</h2>
+    <div class="header">
+        <div class="cont-ream">
+            <div class="amir">
+                <h3>برنامه نویس فرانت اند | امیر داوری:</h3>
+                <a href="{% url 'amir' %}" class="sub">نمایش</a>
+            </div>
+            <div class="reza">
+                <h3>برنامه نویس بک اند | رضا بابایی:</h3>
+                <a  href="{% url 'reza' %}" class="sub">نمایش</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

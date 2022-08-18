@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="{% static 'home/style/reza.css' %}">
+    <link rel="stylesheet" href="{% static 'home/style/res-amir-reza.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رضا بابایی</title>
+</head>
+<body>
+    <a href="{% url 'anytwo' %}" class="back-home">بازگشت</a>
+    <div class="two">
+        <div id="border">
+            <div class="imgs-divu">
+                <img src="{% static 'home/img/Reza.jpg' %}" alt="رضا بابایی">
+            </div>
+            <h2 class="h2-two-box">رضا بابایی</h2>
+            <p class="p-three-box">به نام خدا<br>برنامه نویس سایت | بخش بک اند (سمت سرور)<br>مهارت های من:<br>Python | Django  | Django rest Framework | Git  <br> درباره من : <br>رضا بابایی برنامه نویس سایت ساکن اراک  <br> مدرک تحصیلی : دیپلم  <br> وضعیت تحصیل : دانشجو <br>وضعیت سربازی : معافیت پزشکی</p>
+            <a href="{% url 'madrak_r' %}" class="github"> مدارک من</a>
+            <a href="https://github.com/rbabaeii" target="_blank" class="github">اطلاعات من در گیت هاب</a>
+            <h4 class="contact-box">تماس با من</h4>
+            <a href="https://instagram.com/r_babaeii82" target="_blank"  class="call">اینستاگرام</a>
+            <a href="callto:+989180891099" class="call">شماره تماس</a>
+            <a href="https://t.me/r_babaeii"  class="call">تلگرام</a>
+        </div>
+    </div>
+</body>
+</html>

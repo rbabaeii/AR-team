@@ -1,0 +1,48 @@
+@media screen And (max-width:700px) {
+    .back-home{
+        width:35%;
+        padding:10px 0;
+    }
+    .two{
+        padding:10px 40px;
+        width:70%;
+        height: auto;
+        /* text-align: center; */
+        background-color: white;
+        margin:40px auto 60px auto;
+    }
+    .uuu,#border{
+        margin: 0;
+        width:100%;
+    }
+    div.two>div{
+        width:90%;
+    }
+    .img-divu{
+        width:100%;
+    }
+    .img-divu>img{
+        display: block;
+    }
+    .h2-two-box{
+        width: 60%;
+    }
+    .p-three-box{
+        text-align: right;
+        margin:10px auto;
+    }
+    .github{
+        width: 90%;
+        font-size: 14px;
+        padding-top:5px;
+    }
+    .contact-box{
+        width: 85%;
+    }
+    .call{
+        display: block;
+        margin:10px auto;
+        width:80%;
+        padding:5px;
+    }
+}
